@@ -1,0 +1,19 @@
+The scope of the project
+-------------------------
+
+Build an actual website that will serve to a real world purpose.
+
+
+Website Functionalities:
+-----------------------
+- Admin login
+- User authentication
+- User registration
+- User confirmation
+- Login/Logout
+- Logged users can post ads that will need to be reviewed/approved by
+  the admin.
+- Users can upload photos
+- Users can chat with other users
+- Categories
+
