@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from .views import animal_detail_view
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('posts/', include('posts.urls')),
+    path('', animal_detail_view),
+    path('admin/', admin.site.urls)
 ]
