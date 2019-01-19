@@ -1,17 +1,5 @@
-<!DOCTYPE HTML>
-<html>
+{% extends 'base.html' %}
 
-	<head>
-	<title>This is the first title</title>
-	</head>
-
-
-
-	<body>
-	<h1>The template is rendering successfully </h1>
-	</body>
-
-
-
-
-</html>
+{%block mainhtml %}
+<h1>This is a heading from extended templates</h1>
+{% endblock %}
